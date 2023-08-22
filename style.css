@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: monstserrat;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background:orange;
+    position: fixed;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+
+}
+nav ul{
+   float: right; 
+   margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+ 
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  label.logo  {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+  nav ul{
+    margin-right: 20px;
+     }
+     nav a{
+        font-size: 17px;
+     }
+
+  }
+  @media (max-width: 900px){
+nav #icon{
+    display: block;
+}
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    top: 80px;
+    left: 0;
+    text-align: center;
+    transition: all .5s;
+}
+nav li{
+   display: block; 
+   margin: 50px 0;
+   line-height: 30px;
+   
+}
+nav a{
+    font-size: 20px;
+    color: black;
+}
+a.active,a:hover{
+    border: none;
+    color: white;
+}
+nav ul.show{
+    left: 0;
+}
+
+  }
+
+  section{
+    background:
+    background-size: cover;
+    height: calc(100vh-80px);
+  }
+
+  .p{
+    /*color: #3498db;*/
+    color: white;
+    font-size: 40px;
+   
+  }
+  .img-aprenant{
+margin: 30px;
+  }
+ .section1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   background: #41a3e4; 
+    
+ }
+.p{
+    padding-top: 70px;
+}
+.titre1{
+    text-align: center;
+   color: rgb(123, 120, 120);
+}
+.text1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(221, 207, 63);
+}
+
+.footer{
+    background-color: orange;
+}
+.jj{
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------------expertise--------------------------------------- */
+
+/* .formateur{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.carousel-inner .carousel-item img {
+    width: 600px;
+    height: 530px;
+}
+/* .prof-text{
+    background-color: orange; 
+} */
+
+.card1{
+background-color: orange;
+}
+.card2{
+    background-color: rgb(109, 250, 109);
+    box-shadow: 15px 15px 15px rgb(238, 235, 235);
+
+}
+.card2 img{
+    width: 300px;
+}
+.card-group{
+    justify-content: center;
+}
+.card3 img{
+    width: 300px;
+    box-shadow: 15px 15px 15px rgb(238, 235, 235);
+
+}
+.card2-text{
+text-align: center;
+}
+    
+    
