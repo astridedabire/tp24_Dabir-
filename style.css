@@ -10,7 +10,7 @@ body{
 nav{
     height: 80px;
     width: 100%;
-    background:orange;
+    background: rgb(255,212,0);
     position: fixed;
 }
 label.logo{
@@ -125,7 +125,7 @@ margin: 30px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-   background: #41a3e4; 
+   background: rgb(53,171,226); 
     
  }
 .p{
@@ -142,7 +142,7 @@ margin: 30px;
 }
 
 .footer{
-    background-color: orange;
+    background-color: rgb(255,212,0);
 }
 .jj{
     display: flex;
@@ -198,7 +198,7 @@ height: 200px;
    
 }
 .reatext{
-    background-color: rgb(8, 163, 8);
+    background-color: rgb(125,186,54);
 }
 .reatext1{
     font-size: 20px;
@@ -214,6 +214,81 @@ margin: 50px;
     justify-content: space-around;
     
 }
+.navimage{
+    background-image: url(exp2.jpg);
+    background-size: cover;
+background-position: center;
+height: calc(100vh - 50px);
+}
+.titre1{
+    margin-top: 100px;
+    color:black;
+    margin: 40px;
+    font-size: 35px;
 
+  }
+  .valid{
+    margin-top: 210px;
+    margin-left: 100px;
+    background: white; 
+    margin-right: 30%;
+    padding-left: 0px;
     
+  }
+.apprenant{
+display: flex;
+justify-content: space-around;
+    }
+    .img1{
+        z-index: 1;
+        position: relative;
+        margin-left: 100px;
+       
+     }
+     .img2{
+        z-index: 1;
+        position: relative;
+        margin-left: -5%;
+        margin-top: 4%;
+       
+     }
+     .img3{
+        z-index: 1;
+        position: relative;
+        margin-left: 120px;
+        margin-top: 1%;
+     }
+     .img4{
+        z-index: 1;
+        position: relative;
+        margin-left: -5%;
+        margin-top: 1%;
+     }
+    .apprenantext{
+        margin-right: 20%;
+    }
+    .bouton{
+        background-color: rgb(255,212,0);
+        border: 0;
+        border-radius: 5px;
+        width: 35%;
+    }
+.cohorte1{
+    color: rgb(99,43,134);
+    text-align: center;
     
+}
+.étudiant{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(53,171,226);
+    
+}
+.étudiant img:hover{
+transform:scale(3s);
+box-shadow:0 0 10px;
+}
+.profil{
+    text-align: center;
+    color:rgb(255,212,0) ;
+}
